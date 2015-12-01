@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.enrique.mansiones_locura">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Recibidor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Laboratorio" />
+        <activity android:name=".Jardin" />
+        <activity android:name=".Pasillo" />
+        <activity android:name=".HabPrincipal" />
+        <activity android:name=".HabInvitados" />
+        <activity android:name=".Sotano" />
+        <activity android:name=".SalaRitual" />
+        <activity android:name=".Cocina"></activity>
+    </application>
+
+</manifest>

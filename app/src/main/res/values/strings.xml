@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mansiones_Locura</string>
+    <string name="lblPasillo">Pasillo</string>
+    <string name="lblSotano">Sotano</string>
+    <string name="lblLaboratorio">Laboratorio</string>
+    <string name="lblCocina">Cocina</string>
+    <string name="lblRecibidor">Recibidor</string>
+    <string name="lblJardin">Jardin</string>
+    <string name="lblHabPrincipal">HabPrincipal</string>
+    <string name="lblHabInvitados">HabInvitados</string>
+    <string name="lblSalaRitual">SalaRitual</string>
+</resources>
