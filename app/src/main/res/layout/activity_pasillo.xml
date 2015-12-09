@@ -35,4 +35,73 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:onClick="toRecibidor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/txtlblVida"
+        android:id="@+id/textView13"
+        android:layout_marginBottom="75dp"
+        android:layout_above="@+id/button8"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/txtlblTurno"
+        android:id="@+id/textView14"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/textView13"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/txtlblAccion"
+        android:id="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/textView14"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="TEST"
+        android:id="@+id/lblAccionPas"
+        android:layout_alignTop="@+id/textView15"
+        android:layout_alignStart="@+id/lblTurnoPas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="TEXT"
+        android:id="@+id/lblTurnoPas"
+        android:layout_below="@+id/lblAccionPas"
+        android:layout_toRightOf="@+id/textView15"
+        android:layout_marginLeft="39dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="TEST"
+        android:id="@+id/lblVidaPas"
+        android:layout_below="@+id/lblTurnoPas"
+        android:layout_toRightOf="@+id/textView15"
+        android:layout_marginLeft="39dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnExpltxt"
+        android:id="@+id/button22"
+        android:onClick="explorar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>

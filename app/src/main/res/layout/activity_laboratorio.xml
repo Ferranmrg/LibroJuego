@@ -26,4 +26,74 @@
         android:layout_centerVertical="true"
         android:layout_alignParentStart="true"
         android:onClick="toRecibidor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/txtlblVida"
+        android:id="@+id/textView16"
+        android:layout_marginBottom="39dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/txtlblTurno"
+        android:id="@+id/textView17"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/textView16"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/txtlblAccion"
+        android:id="@+id/textView18"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/textView17"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="TEST"
+        android:id="@+id/lblAccionLab"
+        android:layout_alignTop="@+id/textView18"
+        android:layout_toEndOf="@+id/textView18"
+        android:layout_marginStart="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="TEXT"
+        android:id="@+id/lblTurnoLab"
+        android:layout_marginLeft="37dp"
+        android:layout_alignTop="@+id/textView17"
+        android:layout_alignEnd="@+id/lblAccionLab" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="TEST"
+        android:id="@+id/lblVIdaLab"
+        android:layout_marginLeft="37dp"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_alignEnd="@+id/lblTurnoLab" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnExpltxt"
+        android:id="@+id/btnExpl"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="explorar" />
+
 </RelativeLayout>
