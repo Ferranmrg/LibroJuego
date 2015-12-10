@@ -13,6 +13,7 @@ public class Juego implements Serializable {
     private int acciones;
     private int turnos;
     private boolean finJuego;
+    private boolean message;
 
     private boolean pista1,pista2,pista3;
 
@@ -26,6 +27,7 @@ public class Juego implements Serializable {
         pista1 = false;
         pista2 = false;
         pista3 = false;
+        message = false;
     }
 
     public void setVida(int vida) {
@@ -46,7 +48,7 @@ public class Juego implements Serializable {
     public void setTurnos(int turnos) {
 
         this.turnos = turnos;
-        if (this.turnos == MAX_TURNOS) {
+        if (this.turnos <= MAX_TURNOS) {
             finJuego = true;
         }
     }
@@ -88,7 +90,12 @@ public class Juego implements Serializable {
         this.finJuego = true;
     }
 
-
+    public void setMessage(boolean resp){
+        this.message = resp;
+    }
+    public boolean getMessage(){
+        return message;
+    }
 }
 
 

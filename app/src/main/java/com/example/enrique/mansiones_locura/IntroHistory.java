@@ -15,6 +15,7 @@ public class IntroHistory extends AppCompatActivity {
         setContentView(R.layout.activity_intro_history);
         miJuego = (Juego)getIntent().getExtras().getSerializable("Juego");
     }
+
     public void toRecibidor(View view) {
         try {
             Class<?> clase = Class.forName("com.example.enrique.mansiones_locura.Recibidor");

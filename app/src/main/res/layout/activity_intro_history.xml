@@ -10,8 +10,8 @@
     tools:context="com.example.enrique.mansiones_locura.IntroHistory">
 
     <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:id="@+id/scrollView" >
 
         <TextView
@@ -20,7 +20,8 @@
             android:text="@string/History1"
             android:id="@+id/textView7"
             android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:textSize="14sp" />
     </ScrollView>
 
     <Button

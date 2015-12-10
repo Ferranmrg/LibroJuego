@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.enrique.mansiones_locura.Laboratorio">
+    tools:context="com.example.enrique.mansiones_locura.Laboratorio"
+    android:background="@drawable/laboratorio">
 
     <Button
         android:layout_width="wrap_content"
@@ -16,7 +17,8 @@
         android:id="@+id/button3"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:onClick="toJardin"/>
+        android:onClick="toJardin"
+        android:textSize="15sp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -25,7 +27,8 @@
         android:id="@+id/button4"
         android:layout_centerVertical="true"
         android:layout_alignParentStart="true"
-        android:onClick="toRecibidor"/>
+        android:onClick="toRecibidor"
+        android:textSize="15sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -33,9 +36,10 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/txtlblVida"
         android:id="@+id/textView16"
-        android:layout_marginBottom="39dp"
         android:layout_above="@+id/button3"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -43,9 +47,13 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/txtlblTurno"
         android:id="@+id/textView17"
+        android:layout_marginBottom="5dp"
         android:layout_alignParentStart="true"
         android:layout_above="@+id/textView16"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -53,9 +61,12 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/txtlblAccion"
         android:id="@+id/textView18"
+        android:layout_marginBottom="5dp"
         android:layout_alignParentStart="true"
         android:layout_above="@+id/textView17"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -63,9 +74,12 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="TEST"
         android:id="@+id/lblAccionLab"
+        android:layout_marginBottom="5dp"
         android:layout_alignTop="@+id/textView18"
         android:layout_toEndOf="@+id/textView18"
-        android:layout_marginStart="26dp" />
+        android:layout_marginStart="26dp"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -73,9 +87,12 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="TEXT"
         android:id="@+id/lblTurnoLab"
+        android:layout_marginBottom="5dp"
         android:layout_marginLeft="37dp"
         android:layout_alignTop="@+id/textView17"
-        android:layout_alignEnd="@+id/lblAccionLab" />
+        android:layout_alignEnd="@+id/lblAccionLab"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -85,7 +102,19 @@
         android:id="@+id/lblVIdaLab"
         android:layout_marginLeft="37dp"
         android:layout_alignTop="@+id/textView16"
-        android:layout_alignEnd="@+id/lblTurnoLab" />
+        android:layout_alignEnd="@+id/lblTurnoLab"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblLaboratorio"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="#ffffff" />
 
     <Button
         android:layout_width="wrap_content"
@@ -94,6 +123,7 @@
         android:id="@+id/btnExpl"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:onClick="explorar" />
+        android:onClick="explorar"
+        android:textSize="15sp" />
 
 </RelativeLayout>

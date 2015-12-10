@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.enrique.mansiones_locura.Pasillo">
+    tools:context="com.example.enrique.mansiones_locura.Pasillo"
+    android:background="@drawable/pasillo">
 
     <Button
         android:layout_width="wrap_content"
@@ -42,9 +43,11 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/txtlblVida"
         android:id="@+id/textView13"
-        android:layout_marginBottom="75dp"
+        android:layout_marginBottom="50dp"
         android:layout_above="@+id/button8"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -52,9 +55,12 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/txtlblTurno"
         android:id="@+id/textView14"
+        android:layout_marginBottom="5dp"
         android:layout_alignParentStart="true"
         android:layout_above="@+id/textView13"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -62,9 +68,12 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/txtlblAccion"
         android:id="@+id/textView15"
+        android:layout_marginBottom="5dp"
         android:layout_alignParentStart="true"
         android:layout_above="@+id/textView14"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -72,8 +81,11 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="TEST"
         android:id="@+id/lblAccionPas"
+        android:layout_marginBottom="5dp"
         android:layout_alignTop="@+id/textView15"
-        android:layout_alignStart="@+id/lblTurnoPas" />
+        android:layout_alignStart="@+id/lblTurnoPas"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -81,9 +93,12 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="TEXT"
         android:id="@+id/lblTurnoPas"
+        android:layout_marginBottom="5dp"
         android:layout_below="@+id/lblAccionPas"
         android:layout_toRightOf="@+id/textView15"
-        android:layout_marginLeft="39dp" />
+        android:layout_marginLeft="39dp"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -93,7 +108,19 @@
         android:id="@+id/lblVidaPas"
         android:layout_below="@+id/lblTurnoPas"
         android:layout_toRightOf="@+id/textView15"
-        android:layout_marginLeft="39dp" />
+        android:layout_marginLeft="39dp"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblPasillo"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="#ffffff" />
 
     <Button
         android:layout_width="wrap_content"

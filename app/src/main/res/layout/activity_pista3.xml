@@ -21,7 +21,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hint3"
-        android:id="@+id/textView9" />
+        android:id="@+id/textView9"
+        android:textSize="14sp" />
 
     <Button
         android:layout_width="wrap_content"

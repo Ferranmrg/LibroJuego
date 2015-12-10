@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Mansiones_Locura</string>
+    <string name="lblPasillo">Pasillo</string>
+    <string name="lblSotano">Sotano</string>
+    <string name="lblLaboratorio">Laboratorio</string>
+    <string name="lblCocina">Cocina</string>
+    <string name="lblRecibidor">Recibidor</string>
+    <string name="lblJardin">Jardin</string>
+    <string name="lblHabPrincipal">HabPrincipal</string>
+    <string name="lblHabInvitados">HabInvitados</string>
+    <string name="lblSalaRitual">SalaRitual</string>
+    <string name="txtlblVida">Vida</string>
+    <string name="txtlblTurno">Turno</string>
+    <string name="txtlblAction">Action</string>
+    <string name="txtlblAccion">Accion</string>
+    <string name="lbltxtVida" />
+    <string name="lbltxtTurn" />
+    <string name="lbltxtAccion" />
+    <string name="StartGame">Start Game</string>
+    <string name="History1"><b>La historia hasta ahora…</b>.\n El despacho está inundado por humo de tabaco. Hay varios ficheros alineados en las paredes, y calzando la pata de un escritorio de madera barata asoma un montón de revistas apiladas. Tras el escritorio hay un hombre calvo y rollizo en estado de incontenible nerviosismo.\n  – Ya iba siendo hora – Dice mientras tamborilea con los dedos sobre la mesa.\n  – El tiempo es oro, y lo estamos perdiendo a espuertas. Nuestro socio ha desaparecido, y necesito vuestra ayuda para encontrarlo. El hombre arroja a un joven investigador una carpeta de papel manila bastante sucia.\n  – Su nombre es Walter Lynch. Siempre ha sido el cerebro de esta empresa, y sin él no tardaremos en irnos a pique. Hace mucho que no responde nuestras cartas, y todas nuestras investigaciones han resultado…– hace una pausa, como buscando la palabra adecuada\n  –…infructuosas. Este informe contiene todo lo que sabemos del tema – continúa, señalando a la carpeta con la mirada.\n  – Averiguad qué ha sido de él y traedlo de vuelta. Aquí hay mucho más en juego de lo que os imagináis.\n  Más tarde, ya en el coche, el chico abre con cuidado la mugrienta carpeta. En su interior hallan un mapa dibujado con indicaciones para llegar a una mansión situada en las afueras de Arkham, Massachusetts. El dibujo es bastante rudimentario, como si lo hubiese hecho un niño. Además del mapa, encuentran una página arrancada de lo que parece ser un diario.\n  “8 de junio de 1928. Ha pasado casi un año desde que la enfermedad se llevó a mi hijo. Los médicos estaban desconcertados y no alcanzaban a entender qué era aquello que consumía paulatinamente su carne. Yo siempre he sido hombre de acción, y me negué a quedarme de brazos cruzados mientras mi único heredero se marchitaba. Pasé nueve meses recorriendo el mundo en busca de una cura, indagué por todas partes, desde el corazón de las selvas hasta la sabiduría del lejano oriente, más no hallé nada. Proseguí la búsqueda, adentrándome en parajes cada vez más ignotos y aún más allá. Presencié numerosos misterios y horrores, pero la cura me eludía constantemente. Poco podía yo sospechar que ya era demasiado tarde; mi pobre hijo falleció mientras yo exploraba los rincones del mundo. Murió, y su padre no estuvo junto a él para consolarle en sus últimos momentos. Regresé a casa, junto a mi esposa Edith, con la intención de quedarme en ella para siempre. Lloramos a nuestro hijo. Poco a poco la vida volvió a su cauce y yo me reincorporé al trabajo. Emprendí un nuevo negocio, y mi fortuna aumentó a medida que mi alma languidecía. No fue fácil superar la pérdida de mi hijo, pero descubrí que consolar a mi pobre Edith me ayudaba a ignorar mi propio dolor” En la otra cara de la página hay una anotación, más breve. “21 de enero de 1919. ¿Cómo ha podido pasar? ¿Por qué a mí? Intenté protegerme. Intenté proteger a mi familia, pero no había nada que hacer. Oh, Edith, tú eres todo lo que me queda. ¿Por qué te ha tenido que pasar a ti? Debo profundizar aún más. No dejaré piedra sin remover, por graves que sean las consecuencias. ¡Debo hallar una respuesta!”\n \n \n</string>
+    <string name="Start">Start</string>
+    <string name="btnExpltxt">Explorar</string>
+    <string name="hint1">Sobre la mesa de operaciones yace  el cuerpo ensangrentado de un hombre. A su alrededor hay dispuesto instrumental quirurgico oxidado y herramientas rudimentarias. \\n l hombre está desollado y de su boca sin labios brota una horrible advertencia a la vez que deja caer una pequeña llave de plata...</string>
+    <string name="continar">Continuar</string>
+    <string name="hint2">Se te nubla la vista y te desplomas, asaltado por una repentina vision. En ella, un hombre silba una alegre melodia mientras arrastra el cuerpo inerte de una mujer por el suelo.Te estremeces cuando saca el cadáver al exterior, bajo una intensa lluvia y lo pasa un charco fangoso. La vision termina con la imagen de una pala descendiendo a toda velocidad hacia su cabeza...</string>
+    <string name="hint3">Te asalta una vision de Walter celebrando una sesión de espiritismo para comunicarse con su difunto hijo, \\n observas como un espíritu aprovecha la ocasión para introducirse en la mente del señor Lynch, somentiendolo a una única voluntad: \\n \"Consigue mas almas\".</string>
+    <string name="itemGoMap">Mapa</string>
+    <string name="itemExit">Salir</string>
+</resources>

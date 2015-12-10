@@ -8,16 +8,19 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.enrique.mansiones_locura.SalaRitual"
-    android:id="@+id/z">
+    android:id="@+id/z"
+    android:background="@drawable/ritual">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/lblSotano"
         android:id="@+id/button14"
-        android:layout_centerVertical="true"
+        android:onClick="toSotano"
+        android:textSize="15sp"
+        android:layout_above="@+id/lblAccionSaRit"
         android:layout_alignParentEnd="true"
-        android:onClick="toSotano" />
+        android:layout_marginBottom="53dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,9 +28,10 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/txtlblVida"
         android:id="@+id/textView4"
-        android:layout_marginBottom="56dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,9 +39,12 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/txtlblTurno"
         android:id="@+id/textView5"
+        android:layout_marginBottom="5dp"
         android:layout_alignParentStart="true"
         android:layout_above="@+id/textView4"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -45,9 +52,12 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/txtlblAccion"
         android:id="@+id/textView6"
+        android:layout_marginBottom="5dp"
         android:layout_alignParentStart="true"
         android:layout_above="@+id/textView5"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -55,8 +65,11 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="TEST"
         android:id="@+id/lblAccionSaRit"
+        android:layout_marginBottom="5dp"
         android:layout_alignTop="@+id/textView6"
-        android:layout_alignEnd="@+id/lblTurnoSaRit" />
+        android:layout_alignEnd="@+id/lblTurnoSaRit"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -64,9 +77,12 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="TEXT"
         android:id="@+id/lblTurnoSaRit"
+        android:layout_marginBottom="5dp"
         android:layout_below="@+id/lblAccionSaRit"
         android:layout_toRightOf="@+id/textView6"
-        android:layout_marginLeft="23dp" />
+        android:layout_marginLeft="23dp"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -76,7 +92,19 @@
         android:id="@+id/lblVidaSaRit"
         android:layout_below="@+id/lblTurnoSaRit"
         android:layout_toRightOf="@+id/textView6"
-        android:layout_marginLeft="23dp" />
+        android:layout_marginLeft="23dp"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblSalaRitual"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="#ffffff" />
 
     <Button
         android:layout_width="wrap_content"
@@ -85,6 +113,7 @@
         android:id="@+id/button24"
         android:onClick="explorar"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textSize="15sp" />
 
 </RelativeLayout>

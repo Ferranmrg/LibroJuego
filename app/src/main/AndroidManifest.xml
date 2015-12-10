@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Recibidor" />
-        <activity android:name=".Laboratorio" >
+        <activity android:name=".Laboratorio">
             <uses-permission android:name="android.permission.VIBRATE" />
         </activity>
         <activity android:name=".Jardin" />
@@ -30,7 +30,8 @@
         <activity android:name=".IntroHistory" />
         <activity android:name=".Pista1" />
         <activity android:name=".Pista2" />
-        <activity android:name=".Pista3"></activity>
+        <activity android:name=".Pista3" />
+        <activity android:name=".Mapa"></activity>
     </application>
 
 </manifest>

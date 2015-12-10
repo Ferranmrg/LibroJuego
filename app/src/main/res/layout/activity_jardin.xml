@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.enrique.mansiones_locura.Jardin">
+    tools:context="com.example.enrique.mansiones_locura.Jardin"
+    android:background="@drawable/jardin">
 
     <Button
         android:layout_width="wrap_content"
@@ -16,7 +17,8 @@
         android:id="@+id/button5"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:onClick="toLaboratorio" />
+        android:onClick="toLaboratorio"
+        android:textSize="15sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -27,7 +29,8 @@
         android:layout_alignParentStart="true"
         android:layout_above="@+id/textView20"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="26dp" />
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -37,8 +40,9 @@
         android:id="@+id/textView20"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="26dp"
-        android:layout_marginBottom="100dp" />
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -49,7 +53,8 @@
         android:layout_alignParentStart="true"
         android:layout_above="@+id/textView19"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="26dp" />
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -59,7 +64,9 @@
         android:id="@+id/lblActionJar"
         android:layout_alignTop="@+id/textView21"
         android:layout_toStartOf="@+id/button5"
-        android:layout_marginEnd="29dp" />
+        android:layout_marginEnd="120dp"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -69,7 +76,9 @@
         android:id="@+id/lblVidaJar"
         android:layout_below="@+id/lblActionJar"
         android:layout_toLeftOf="@+id/button5"
-        android:layout_marginRight="28dp" />
+        android:layout_marginRight="120dp"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -79,7 +88,19 @@
         android:id="@+id/lblTurnoJar"
         android:layout_below="@+id/lblVidaJar"
         android:layout_toLeftOf="@+id/button5"
-        android:layout_marginRight="28dp" />
+        android:layout_marginRight="120dp"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblJardin"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="#ffffff" />
 
     <Button
         android:layout_width="wrap_content"
@@ -88,6 +109,7 @@
         android:id="@+id/button18"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:onClick="explorar" />
+        android:onClick="explorar"
+        android:textSize="15sp" />
 
 </RelativeLayout>

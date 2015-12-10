@@ -7,42 +7,49 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.enrique.mansiones_locura.Recibidor">
+    tools:context="com.example.enrique.mansiones_locura.Recibidor"
+    android:background="@drawable/recibidor">
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
         android:text="@string/lblPasillo"
         android:id="@+id/btnToPasillo"
         android:layout_alignParentEnd="true"
-        android:onClick="toPasillo" />
+        android:onClick="toPasillo"
+        android:textSize="15sp" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
         android:text="@string/lblSotano"
         android:id="@+id/btnToSotano"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:onClick="toSotano"/>
+        android:onClick="toSotano"
+        android:textSize="15sp" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
         android:text="@string/lblLaboratorio"
         android:id="@+id/button"
-        android:layout_centerVertical="true"
+        android:onClick="toLaboratorio"
+        android:textSize="15sp"
+        android:layout_below="@+id/btnToPasillo"
         android:layout_alignParentEnd="true"
-        android:onClick="toLaboratorio"/>
+        android:layout_marginTop="69dp" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
         android:text="@string/lblCocina"
         android:id="@+id/button2"
-        android:layout_centerVertical="true"
+        android:onClick="toCocina"
+        android:textSize="15sp"
+        android:layout_above="@+id/textView12"
         android:layout_alignParentStart="true"
-        android:onClick="toCocina"/>
+        android:layout_marginBottom="79dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -51,7 +58,8 @@
         android:id="@+id/textView"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -59,9 +67,11 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/txtlblVida"
         android:id="@+id/textView10"
-        android:layout_marginBottom="63dp"
         android:layout_above="@+id/textView"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -69,9 +79,12 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/txtlblTurno"
         android:id="@+id/textView11"
+        android:layout_marginBottom="5dp"
         android:layout_alignParentStart="true"
         android:layout_above="@+id/textView10"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -79,9 +92,12 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/txtlblAccion"
         android:id="@+id/textView12"
+        android:layout_marginBottom="5dp"
         android:layout_alignParentStart="true"
         android:layout_above="@+id/textView11"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -90,7 +106,9 @@
         android:text="TEST"
         android:id="@+id/lblVidaRec"
         android:layout_below="@+id/lblTurnoRec"
-        android:layout_alignEnd="@+id/lblTurnoRec" />
+        android:layout_alignEnd="@+id/lblTurnoRec"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -98,8 +116,11 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="TEXT"
         android:id="@+id/lblTurnoRec"
+        android:layout_marginBottom="5dp"
         android:layout_below="@+id/lblAccionRec"
-        android:layout_alignEnd="@+id/lblAccionRec" />
+        android:layout_alignEnd="@+id/lblAccionRec"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -107,16 +128,23 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="TEST"
         android:id="@+id/lblAccionRec"
+        android:layout_marginBottom="5dp"
         android:layout_alignTop="@+id/textView12"
-        android:layout_alignEnd="@+id/button2" />
+        android:layout_alignEnd="@+id/button2"
+        android:textSize="15sp"
+        android:textColor="#ffffff" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:text="@string/btnExpltxt"
         android:id="@+id/button23"
         android:onClick="explorar"
-        android:layout_below="@+id/lblVidaRec"
-        android:layout_alignEnd="@+id/btnToPasillo" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/btnToPasillo"
+        android:textSize="15sp" />
+
+
 
 </RelativeLayout>
+
